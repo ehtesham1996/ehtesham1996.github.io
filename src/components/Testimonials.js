@@ -5,33 +5,6 @@ import LetteredAvatar from "lettered-avatar";
 import StarRatings from 'react-star-ratings';
 
 export default class Testimonials extends Component {
-
-
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      fiverrData: []
-    }
-  }
-
-  fetchReviews() {
-    // Where we're fetching data from
-    var xhr = new XMLHttpRequest()
-
-    xhr.addEventListener('load', () => {
-      // update the state of the component with the result here
-      console.log(xhr.responseText)
-    })
-    // open the request with the verb and the url
-    xhr.open('GET', 'https://www.fiverr.com/ratings/index?user_id=60984565&as_seller=true&sort_by=relevant&page_size=5')
-    // send the request
-    xhr.send()
-  }
-
-  componentDidMount() {
-    this.fetchReviews();
-  }
   render() {
     let resumeData = this.props.resumeData;
 
