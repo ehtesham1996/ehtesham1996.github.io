@@ -10,40 +10,41 @@ let resumeData = {
     "Python Developer",
     "Backend Engineer"
   ],
-  "resumedownload"  :"https://jobee.pk/download/20200411/c0974f8b-7b92-40e1-90de-c35a96404193/Ehtesham/Hussain",
-  "linkedinId": "Your LinkedIn Id",
+  "formSpreeUrl" :  "https://formspree.io/xbjzaddd",
+  "resumedownload": "https://jobee.pk/download/20200411/c0974f8b-7b92-40e1-90de-c35a96404193/Ehtesham/Hussain",
+  "linkedinId": "https://www.linkedin.com/in/ehtesham-hussain-a54126115/",
   "skypeid": "Your skypeid",
   "roleDescription": "I like dabbling in various parts of frontend development and like to learn about new technologies, write technical articles or simply play games in my free time.",
   "socialLinks": [{
-      "name": "facebook",
-      "url": "https://www.facebook.com/ehtesham1996",
-      "className": "fa fa-facebook-square"
-    },
-    {
-      "name": "linkedin",
-      "url": "https://www.linkedin.com/in/ehtesham-hussain-a54126115/",
-      "className": "fa fa-linkedin"
-    },
-    {
-      "name": "stack-overflow",
-      "url": "https://stackoverflow.com/users/13173774/ehtesham",
-      "className": "fa fa-stack-overflow"
-    },
-    {
-      "name": "github",
-      "url": "https://github.com/ehtesham1996",
-      "className": "fa fa-github"
-    },
-    {
-      "name": "twitter",
-      "url": "https://twitter.com/ehteasham1996",
-      "className": "fa fa-twitter"
-    },
-    {
-      "name": "fiverr",
-      "url": "https://www.fiverr.com/expertsarea",
-      "className": "fa fa-fonticons"
-    }
+    "name": "facebook",
+    "url": "https://www.facebook.com/ehtesham1996",
+    "className": "fa fa-facebook-square"
+  },
+  {
+    "name": "linkedin",
+    "url": "https://www.linkedin.com/in/ehtesham-hussain-a54126115/",
+    "className": "fa fa-linkedin"
+  },
+  {
+    "name": "stack-overflow",
+    "url": "https://stackoverflow.com/users/13173774/ehtesham",
+    "className": "fa fa-stack-overflow"
+  },
+  {
+    "name": "github",
+    "url": "https://github.com/ehtesham1996",
+    "className": "fa fa-github"
+  },
+  {
+    "name": "twitter",
+    "url": "https://twitter.com/ehteasham1996",
+    "className": "fa fa-twitter"
+  },
+  {
+    "name": "fiverr",
+    "url": "https://www.fiverr.com/expertsarea",
+    "className": "fa fa-fonticons"
+  }
   ],
   "aboutme": "Software engineering graduate with an emphasis in web development and database security. Dedicated to implementing new strategies and improving communications between departments. Experienced in NodeJs,Python,ReactJS,MongoDB,Amazon Web Services",
   "address": {
@@ -55,74 +56,112 @@ let resumeData = {
   "email": "ehteasham@gmail.com",
   "website": "https://rbhatia46.github.io",
   "education": [{
-      "UniversityName": "COMSATS Institute of Information Technology, Islamabad",
-      "specialization": "Bachelor of Science in Computer Science (BCS)",
-      "MonthOfPassing": "Jul",
-      "YearOfPassing": "2019",
-      "Achievements": "3.50 CGPA"
-    },
-    {
-      "UniversityName": "F.G Sir Syed College, The Mall, Rawalpindi",
-      "specialization": "Intermediate of Computer Science (ICS)",
-      "MonthOfPassing": "Aug",
-      "YearOfPassing": "2015",
-      "Achievements": "A+ Grade"
-    }
+    "UniversityName": "COMSATS Institute of Information Technology, Islamabad",
+    "specialization": "Bachelor of Science in Computer Science (BCS)",
+    "MonthOfPassing": "Jul",
+    "YearOfPassing": "2019"
+  },
+  {
+    "UniversityName": "F.G Sir Syed College, The Mall, Rawalpindi",
+    "specialization": "Intermediate of Computer Science (ICS)",
+    "MonthOfPassing": "Aug",
+    "YearOfPassing": "2015"
+  }
   ],
   "work": [{
-      "CompanyName": "BASKT",
-      "Website": "https://baskt.com",
-      "specialization": "Backend Developer / NodeJs Developer / AWS",
-      "YearOfJoining": "2019",
-      "MonthOfJoining": "June",
-      "WorkingCurrently": true,
-      "MonthOfLeaving": "",
-      "YearOfLeaving": "",
-      "Achievements": "Serving as Back-end developer mainly on NodeJs and AWS based services. Learned to manage and deploy serverless architectures on AWS Lambda and using API gateway as an endpoint to build REST API. Used and developed skills in using NoSQL databases such as MongoDB, DynamoDB. Have great experience with source control tools such as Github and Codecommit. Have experience with other useful services such as Redis.io, Socket.io, ElasticSearch. Other than that developed skills in dealing with clients and Learnt to adapt to the organization's culture."
-    },
-    {
-      "CompanyName": "Fiverr",
-      "specialization": "Freelancing",
-      "Website": "https://fiverr.com/expertsarea",
-      "YearOfJoining": "2018",
-      "MonthOfJoining": "DEC",
-      "WorkingCurrently": true,
-      "MonthOfLeaving": "",
-      "YearOfLeaving": "",
-      "Achievements": "Delivered over 50+ projects on Fiverr for my clients from concept to completion with positive ratings."
-    }
+    "CompanyName": "BASKT",
+    "Website": "https://baskt.com",
+    "specialization": "Backend Developer / NodeJs Developer / AWS",
+    "YearOfJoining": "2019",
+    "MonthOfJoining": "June",
+    "WorkingCurrently": true,
+    "MonthOfLeaving": "",
+    "YearOfLeaving": "",
+    "Achievements": "Serving as Back-end developer mainly on NodeJs and AWS based services. Learned to manage and deploy serverless architectures on AWS Lambda and using API gateway as an endpoint to build REST API. Used and developed skills in using NoSQL databases such as MongoDB, DynamoDB. Have great experience with source control tools such as Github and Codecommit. Have experience with other useful services such as Redis.io, Socket.io, ElasticSearch. Other than that developed skills in dealing with clients and Learnt to adapt to the organization's culture."
+  },
+  {
+    "CompanyName": "Fiverr",
+    "specialization": "Freelancing",
+    "Website": "https://fiverr.com/expertsarea",
+    "YearOfJoining": "2018",
+    "MonthOfJoining": "DEC",
+    "WorkingCurrently": true,
+    "MonthOfLeaving": "",
+    "YearOfLeaving": "",
+    "Achievements": "Delivered over 50+ projects on Fiverr for my clients from concept to completion with positive ratings."
+  }
   ],
-  "skillsDescription": "Your skills here",
-  "skills": [{
-      "skillname": "HTML5"
+  "skillsDescription": "FULL STACK DEVELOPER WHO WANT TO KEEP EXPLORING ",
+  "skills": [
+    {
+      skillName: "html-5",
+      imgurl : "https://www.w3.org/html/logo/downloads/HTML5_1Color_Black.png"
     },
     {
-      "skillname": "CSS"
+      skillName: "css3",
+      imgurl : "https://pngimage.net/wp-content/uploads/2018/06/logo-css-png-5.png"
     },
     {
-      "skillname": "Reactjs"
+      skillName: "JavaScript",
+      imgurl: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png"
+    },
+    {
+      skillName: "reactjs",
+      imgurl: "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png"
+    },
+    {
+      skillName: "nodejs",
+      imgurl : "https://images.tutorialedge.net/images/node.png"
+    },
+    {
+      skillName: "npm",
+      imgurl: "https://miro.medium.com/max/900/1*9W9ar6kWg8RTB3vYYwti-w.png"
+    },
+    {
+      skillName: "mongodb",
+      imgurl: "https://seeklogo.net/wp-content/uploads/2015/10/mongodb-logo-vector-download.jpg"
+    },
+    {
+      skillName: "aws",
+      imgurl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/AWS_Simple_Icons_AWS_Cloud.svg/1280px-AWS_Simple_Icons_AWS_Cloud.svg.png"
+    },
+    {
+      skillName: "firebase",
+      imgurl: "https://seeklogo.com/images/F/firebase-logo-402F407EE0-seeklogo.com.png"
+    },
+    {
+      skillName: "python",
+      imgurl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png"
+    },
+    {
+      skillName: "docker",
+      imgurl: "https://cdn.worldvectorlogo.com/logos/docker.svg"
+    },
+    {
+      skillName : "github",
+      imgurl : "https://pngimg.com/uploads/github/github_PNG20.png"
     }
   ],
   "portfolio": [{
-      "name": "project1",
-      "description": "mobileapp",
-      "imgurl": "images/portfolio/coffee.jpg"
-    },
-    {
-      "name": "project2",
-      "description": "mobileapp",
-      "imgurl": "images/portfolio/project.jpg"
-    },
-    {
-      "name": "project3",
-      "description": "mobileapp",
-      "imgurl": "images/portfolio/project2.png"
-    },
-    {
-      "name": "project4",
-      "description": "mobileapp",
-      "imgurl": "images/portfolio/phone.jpg"
-    }
+    "name": "project1",
+    "description": "mobileapp",
+    "imgurl": "images/portfolio/coffee.jpg"
+  },
+  {
+    "name": "project2",
+    "description": "mobileapp",
+    "imgurl": "images/portfolio/project.jpg"
+  },
+  {
+    "name": "project3",
+    "description": "mobileapp",
+    "imgurl": "images/portfolio/project2.png"
+  },
+  {
+    "name": "project4",
+    "description": "mobileapp",
+    "imgurl": "images/portfolio/phone.jpg"
+  }
   ],
   "testimonials": [{
     "id": "5da634a3353dad0001aae9ea",
@@ -137,7 +176,7 @@ let resumeData = {
     "reviewer_country_code": "FR",
     "reviewer_country": "France",
     "encrypted_order_id": "FO7125F01E244"
-  },{
+  }, {
     "id": "5e49b44aefc9f40001830883",
     "comment": "Second order, completed sucessfully. He really understood the chores.",
     "username": "aigarzon",
@@ -319,7 +358,7 @@ let resumeData = {
     "reviewer_country_code": "CA",
     "reviewer_country": "Canada",
     "encrypted_order_id": "FO6F11C8A403"
-  },  {
+  }, {
     "id": "5da0ab4f7f046e0001ecbf45",
     "comment": "Great communication \u0026 delivery",
     "username": "bin_omar",

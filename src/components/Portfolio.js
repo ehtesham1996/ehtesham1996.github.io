@@ -6,9 +6,9 @@ export default class Porfolio extends Component {
       <section id="portfolio">
       <div className="row">
         <div className="twelve columns collapsed">
-          <h1>Check Out Some of My Works.</h1>
-          <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
-          {
+          <h1>Projects will be uploaded soon! <br></br> You can check them on CV currently.</h1>
+          {/* <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf"> */}
+          {/* {
             resumeData.portfolio && resumeData.portfolio.map((item)=>{
               return(
                 <div className="columns portfolio-item">
@@ -21,14 +21,14 @@ export default class Porfolio extends Component {
                           <p>{item.description}</p>
                         </div>
                       </div>
-                      <div className="mfp-content">test</div>
+                      <div>test</div>
                     </a>
                   </div>
                 </div>
               )
             })
-          }
-          </div>
+          } */}
+          {/* </div> */}
         </div>
       </div>
   </section>

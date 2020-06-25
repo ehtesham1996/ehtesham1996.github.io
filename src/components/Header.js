@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import Typist from 'react-typist';
 import TypistLoop from 'react-typist-loop';
 import "../App.css"
+import "react-typist/dist/Typist.css";
+
 export default class Header extends Component {
   render() {
     let resumeData = this.props.resumeData;
@@ -30,7 +32,7 @@ export default class Header extends Component {
                 <div className="tagline">
                   <TypistLoop>
                     {resumeData.roles.map(text => 
-                    <Typist key={text}>{text}<Typist.Backspace count={text.length+1} delay={1000}/></Typist>
+                    <Typist cursor={{blink:true}} key={text}>{text}<Typist.Backspace count={text.length+1} delay={1000}/></Typist>
                     )}
                   </TypistLoop>
                 </div>

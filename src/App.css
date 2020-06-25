@@ -82,3 +82,15 @@
 .super {
   vertical-align: super;
 }
+
+
+.software-skill-inline {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.skillimage {
+  height: 80px;
+}
