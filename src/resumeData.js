@@ -11,7 +11,7 @@ let resumeData = {
     "Backend Engineer"
   ],
   "formSpreeUrl" :  "https://formspree.io/xbjzaddd",
-  "resumedownload": "https://jobee.pk/download/20200411/c0974f8b-7b92-40e1-90de-c35a96404193/Ehtesham/Hussain",
+  "resumedownload": "https://drive.google.com/file/d/1pnXFkQdhVCvYbdR1V-jrs2VQn48Fc1L4/view?usp=sharing",
   "linkedinId": "https://www.linkedin.com/in/ehtesham-hussain-a54126115/",
   "skypeid": "Your skypeid",
   "roleDescription": "I like dabbling in various parts of frontend development and like to learn about new technologies, write technical articles or simply play games in my free time.",
