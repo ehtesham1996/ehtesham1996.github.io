@@ -8,8 +8,9 @@ on:
     branches: [ dev ]
 
 jobs:
-  Depenedencies:
-    name: Depenedencies Installation
+
+  Testing:
+    name: Testing the project
     runs-on: ubuntu-latest
 
     steps:
@@ -18,15 +19,6 @@ jobs:
       - name: Installing the necessary depenedencies
         run: npm install
 
-  Testing:
-    name: Testing the project
-    runs-on: ubuntu-latest
-
-    needs: Depenedencies
-
-    steps:
-      - uses: actions/checkout@v2
-
       - name: Test cases run
         run: npm test 
 
@@ -34,10 +26,13 @@ jobs:
     name: Deploying to github pages
     runs-on: ubuntu-latest
 
-    needs: [Depenedencies,Testing]
+    needs: Testing
 
     steps:
         - uses: actions/checkout@v2
+
+        - name: Installing the necessary depenedencies
+          run: npm install
 
         - name: Running build and deploy
           run: npm deploy        
