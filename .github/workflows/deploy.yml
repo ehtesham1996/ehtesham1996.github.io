@@ -34,6 +34,12 @@ jobs:
         - name: Installing the necessary depenedencies
           run: npm install
 
+        - run : git config user.name github-actions
+          shell: bash
+
+        - run : git config user.email github-actions@github.com
+          shell: bash
+          
         - name: Running build and deploy
           run: npm run deploy        
           env:
