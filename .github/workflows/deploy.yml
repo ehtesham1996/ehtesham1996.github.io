@@ -36,3 +36,5 @@ jobs:
 
         - name: Running build and deploy
           run: npm run deploy        
+          env:
+            CI: false
