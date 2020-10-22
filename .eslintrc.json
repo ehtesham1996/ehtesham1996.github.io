@@ -1,0 +1,31 @@
+{
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended"
+    ],
+    "parser": "babel-eslint",
+    "env": {
+        "browser": true,
+        "node": true,
+        "mocha": true
+    },
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+        "prefer-destructuring"  : "error",
+        "quotes": [
+            2,
+            "single"
+        ],
+        "camelcase" : "error",
+        "no-debugger": 0,
+        "no-console": 0,
+        "no-unused-vars": 1,
+        "react/display-name": 0,
+        "react/prop-types": 0,
+        "react/no-multi-comp": 0,
+        "no-var": "error",
+        "no-undefined" : "error"
+    }
+}

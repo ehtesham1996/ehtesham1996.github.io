@@ -1,14 +1,21 @@
 import React, { Component } from 'react';
+
 export default class Porfolio extends Component {
   render() {
-    let resumeData = this.props.resumeData;
+    // const { resumeData } = this.props;
+    
     return (
       <section id="portfolio">
-      <div className="row">
-        <div className="twelve columns collapsed">
-          <h1>Projects will be uploaded soon! <br></br> You can check them on CV currently.</h1>
-          {/* <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf"> */}
-          {/* {
+        <div className="row">
+          <div className="twelve columns collapsed">
+            <h1>
+              Projects will be uploaded soon!
+              <br />
+              {' '}
+              You can check them on CV currently.
+            </h1>
+            {/* <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf"> */}
+            {/* {
             resumeData.portfolio && resumeData.portfolio.map((item)=>{
               return(
                 <div className="columns portfolio-item">
@@ -28,10 +35,10 @@ export default class Porfolio extends Component {
               )
             })
           } */}
-          {/* </div> */}
+            {/* </div> */}
+          </div>
         </div>
-      </div>
-  </section>
-        );
+      </section>
+    );
   }
 }
