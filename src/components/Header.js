@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import Typist from 'react-typist';
 import TypistLoop from 'react-typist-loop';
-import "../App.css"
-import "react-typist/dist/Typist.css";
+import '../App.css';
+import 'react-typist/dist/Typist.css';
 
 export default class Header extends Component {
   render() {
-    let resumeData = this.props.resumeData;
+    const {resumeData} = this.props;
     return (
-      <React.Fragment>
+      <>
         <header id="home">
           <nav id="nav-wrap">
             <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
@@ -28,16 +28,22 @@ export default class Header extends Component {
               className="day"
             >
               <main className="App-main">
-                <h1 className="intro">Hi, I'm {resumeData.name}</h1>
+                <h1 className="intro">
+                  Hi, I&apos;m
+                  {resumeData.name}
+                </h1>
                 <div className="tagline">
                   <TypistLoop>
-                    {resumeData.roles.map(text => 
-                    <Typist cursor={{blink:true}} key={text}>{text}<Typist.Backspace count={text.length+1} delay={1000}/></Typist>
-                    )}
+                    {resumeData.roles.map((text) => (
+                      <Typist cursor={{ blink: true }} key={text}>
+                        {text}
+                        <Typist.Backspace count={text.length + 1} delay={1000} />
+                      </Typist>
+                    ))}
                   </TypistLoop>
                 </div>
                 <div className="icons-social">
-                  {resumeData.socialLinks && resumeData.socialLinks.map(socialLink => (
+                  {resumeData.socialLinks && resumeData.socialLinks.map((socialLink) => (
                     <a
                       key={socialLink.name}
                       target="_blank"
@@ -53,11 +59,11 @@ export default class Header extends Component {
           </div>
 
           <p className="scrolldown">
-            <a className="smoothscroll" href="#about"><i className="icon-down-circle"></i></a>
+            <a className="smoothscroll" href="#about"><i className="icon-down-circle" /></a>
           </p>
 
         </header>
-      </React.Fragment>
+      </>
     );
   }
 }
