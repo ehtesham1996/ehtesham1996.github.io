@@ -6,13 +6,13 @@ import 'react-typist/dist/Typist.css';
 
 export default class Header extends Component {
   render() {
-    const {resumeData} = this.props;
+    const { resumeData } = this.props;
     return (
       <>
         <header id="home">
           <nav id="nav-wrap">
             <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-            <a className="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+            <a className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>
             <ul id="nav" className="nav">
               <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
               <li><a className="smoothscroll" href="#about">About</a></li>
@@ -29,8 +29,7 @@ export default class Header extends Component {
             >
               <main className="App-main">
                 <h1 className="intro">
-                  Hi, I&apos;m
-                  {resumeData.name}
+                  Hi, I&apos;m&nbsp;{resumeData.name}
                 </h1>
                 <div className="tagline">
                   <TypistLoop>

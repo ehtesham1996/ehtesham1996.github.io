@@ -88,7 +88,7 @@ export default class Resume extends Component {
                 resumeData.skills && resumeData.skills.map((item) => (
                   <div key={item.skillName} className="two column software-skill-inline align-center">
                     <div>
-                      <img src={item.imgurl} className="skillimage" />
+                      <img src={item.imgurl} className="skillimage" alt="skillimage"/>
                       <h6>{item.skillName}</h6>
                     </div>
                   </div>
