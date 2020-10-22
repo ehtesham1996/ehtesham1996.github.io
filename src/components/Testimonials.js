@@ -34,6 +34,10 @@ export default class Testimonials extends Component {
                       return {
                         "display": "None"
                       };
+                    default:
+                      return {
+                        "display": "None"
+                      };
                   }
                 }}
 
