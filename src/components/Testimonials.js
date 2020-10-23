@@ -23,28 +23,28 @@ export default class Testimonials extends Component {
                   switch (key) {
                     case 'CenterLeft':
                       return {
-                        'margin-left': '-70px',
+                        'margin-left': '-70px'
                       };
                     case 'CenterRight':
                       // will apply all other keys
                       return {
-                        'margin-right': '-70px',
+                        'margin-right': '-70px'
                       };
                     case 'BottomCenter':
                       return {
-                        display: 'None',
+                        display: 'None'
                       };
                     default:
                       return {
-                        display: 'None',
+                        display: 'None'
                       };
                   }
                 }}
 
                 defaultControlsConfig={{
                   pagingDotsStyle: {
-                    fill: 'white',
-                  },
+                    fill: 'white'
+                  }
                 }}
               >
                 {
@@ -55,7 +55,7 @@ export default class Testimonials extends Component {
                           name={item.username}
                           imgSrc={item.user_image_url}
                           options={{
-                            tooltip: true,
+                            tooltip: true
                           }}
                         />
 
@@ -67,7 +67,7 @@ export default class Testimonials extends Component {
                           svg
                           style={{
                             width: '2em',
-                            height: '2em',
+                            height: '2em'
                           }}
                         />
                       </div>
