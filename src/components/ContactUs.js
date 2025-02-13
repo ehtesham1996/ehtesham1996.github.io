@@ -4,7 +4,7 @@ class ContactUs extends Component {
     super();
     this.submitForm = this.submitForm.bind(this);
     this.state = {
-      status: '',
+      status: ''
     };
   }
 
