@@ -15,7 +15,7 @@
     "react-country-flag": "^2.0.1",
     "react-dom": "^16.13.1",
     "react-helmet": "^5.2.1",
-    "react-scripts": "3.4.1",
+    "react-scripts": "5.0.1",
     "react-star-ratings": "^2.3.0",
     "react-typist": "^2.0.5",
     "react-typist-loop": "0.0.5"
