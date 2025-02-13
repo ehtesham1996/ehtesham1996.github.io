@@ -53,9 +53,9 @@ const resumeData = {
     state: 'Punjab ,Pakistan',
     zip: '46000'
   },
-  phone: '+923025016114',
+  phone: '',
   email: 'ehteasham@gmail.com',
-  website: 'https://rbhatia46.github.io',
+  website: 'https://ehtesham1996.github.io',
   education: [{
     UniversityName: 'COMSATS Institute of Information Technology, Islamabad',
     specialization: 'Bachelor of Science in Computer Science (BCS)',
